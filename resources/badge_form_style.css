@@ -1,0 +1,93 @@
+.badge-form-inner{
+    display: flex;
+    margin: 0px 0 5px 0;
+    border-bottom: solid 2px rgb(226, 226, 226);
+    padding-bottom: 10px;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.badge-form {
+    margin-bottom: 20px;
+}
+
+.badge-form-field-wrap{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 10px 10px;
+    position: relative;
+    min-width: 140px;
+    flex: 1;
+}
+
+.empty-field-note {
+    border: 2px solid #ffaeae;
+    border-radius: 5px;
+    padding: -2px 8px 8px 8px;
+}
+
+#empty-field-note-text {
+	margin-top: -22px;
+	position: absolute;
+	width: 100%;
+	height: 22px;
+	margin-left: -10px;
+	font-weight: bold;
+	font-style: italic;
+	z-index: 0;
+	/* background-color: antiquewhite; */
+	text-align: center;
+	border-radius: 5px;
+}
+
+/* .badge-form-field-wrap:first-of-type {
+    padding: 0 15px 0 0;
+}
+
+.badge-form-field-wrap:last-of-type {
+    padding: 0 0 0 15px;
+} */
+
+.badge-form-field-wrap>label{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.badge-form-field-wrap.radio {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.badge-form-field-wrap.radio>label {
+    text-align: center;
+}
+
+.radio-options {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    justify-content: space-evenly;
+}
+
+.radio-option {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px 0 5px;
+    text-align: center;
+}
+
+.remove-form-button-wrap {
+    display: flex;
+    padding: 5px 0 10px 5px;
+
+}
+
+.badge-form-button {
+    margin: 5px;
+}
+
+.badge-form-field-wrap.select > select{
+    width: 150px;
+}
